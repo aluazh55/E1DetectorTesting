@@ -18,7 +18,7 @@ class HandoverTracker:
         self.between_J2_J3 = []
 
         # Храним ID машин на датчиках с прошлого шага
-        self.last_step_vehs = {"E1J1": set(), "E1J2": set(), "E1J3": set()}
+        self.last_step_vehs = {"E1J1_In": set(), "E1J2_In": set(), "E1J3_In": set()}
 
     def _get_new_arrivals(self, det_id):
         """Возвращает список ID машин, которые только что наехали на детектор"""
@@ -29,17 +29,17 @@ class HandoverTracker:
 
     def update(self):
         # 1. Машина проехала J1
-        for v_id in self._get_new_arrivals("E1J1"):
+        for v_id in self._get_new_arrivals("E1J1_In"):
             self.between_J1_J2.append(v_id)
 
         # 2. Машина проехала J2 (Handover)
-        for v_id in self._get_new_arrivals("E1J2"):
+        for v_id in self._get_new_arrivals("E1J2_In"):
             if v_id in self.between_J1_J2:
                 self.between_J1_J2.remove(v_id)
             self.between_J2_J3.append(v_id)
 
         # 3. Машина проехала J3
-        for v_id in self._get_new_arrivals("E1J3"):
+        for v_id in self._get_new_arrivals("E1J3_In"):
             if v_id in self.between_J2_J3:
                 self.between_J2_J3.remove(v_id)
 
