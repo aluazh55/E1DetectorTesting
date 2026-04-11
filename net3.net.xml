@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2026-04-11T15:53:39.970580+05:00 by Eclipse SUMO netedit 1.26.0
+<!-- generated on 2026-04-11T17:09:44.320082+05:00 by Eclipse SUMO netedit 1.26.0
 <neteditConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/neteditConfiguration.xsd">
 
     <input>
+        <sumocfg-file value="D:\StudyFiles\SumoProjects2\E1DetectorПередачаЭстафеты\net3.sumocfg"/>
+        <additional-files value="D:\StudyFiles\SumoProjects2\E1DetectorПередачаЭстафеты\add.add.xml"/>
+        <route-files value="D:\StudyFiles\SumoProjects2\E1DetectorПередачаЭстафеты\net3.rou.xml"/>
         <sumo-net-file value="D:\StudyFiles\SumoProjects2\E1DetectorПередачаЭстафеты\net3.net.xml"/>
     </input>
 
@@ -73,13 +76,13 @@
     </edge>
 
     <tlLogic id="J1" type="static" programID="0" offset="0">
-        <phase duration="10" state="Gr"/>
+        <phase duration="50" state="Gr"/>
         <phase duration="3"  state="yr"/>
         <phase duration="70" state="rG"/>
         <phase duration="3"  state="ry"/>
     </tlLogic>
     <tlLogic id="J2" type="static" programID="0" offset="0">
-        <phase duration="42" state="Gr"/>
+        <phase duration="64" state="gr"/>
         <phase duration="3"  state="yr"/>
         <phase duration="42" state="rG"/>
         <phase duration="3"  state="ry"/>
