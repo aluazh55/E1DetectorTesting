@@ -1,0 +1,3 @@
+[Step: 73.1s] Vehicle: t_0 | Result: STOPPED (51.0s waited) | T_reach = 10.0s (accel) + (272.16m - (13.89m/s * 10.0s)/2) / 13.89m/s = 10.0s + (202.71m / 13.89m/s) = 24.59s
+[Step: 73.4s] Vehicle: t_1 | Result: STOPPED (44.1s waited) | T_reach = 10.0s (accel) + (272.16m - (13.89m/s * 10.0s)/2) / 13.89m/s = 10.0s + (202.71m / 13.89m/s) = 24.59s
+[Step: 73.8s] Vehicle: t_2 | Result: STOPPED (42.2s waited) | T_reach = 10.0s (accel) + (272.16m - (13.89m/s * 10.0s)/2) / 13.89m/s = 10.0s + (202.71m / 13.89m/s) = 24.59s
