@@ -8,10 +8,10 @@
     <inductionLoop id="E1J1_In" lane="E0_0" pos="36.10" period="300.00" file="e1_0.xml"/>
     <inductionLoop id="E1J2_In" lane="E1_0" pos="8.84" period="300.00" file="e1_1.xml"/>
     <inductionLoop id="E1J3_In" lane="E2_0" pos="8.76" period="300.00" file="e1_2.xml"/>
-    <inductionLoop id="E1J1_Out" lane="E0_0" pos="246.64" period="300.00" file="e1_0.xml"/>
+    <inductionLoop id="E1J1_Out" lane="E0_0" pos="-0.1" period="300.00" file="e1_0.xml"/>
     <inductionLoop id="E1J2_Out" lane="E1_0" pos="256.54" period="300.00" file="e1_1.xml"/>
     <inductionLoop id="E1J3_Out" lane="E2_0" pos="254.38" period="300.00" file="e1_2.xml"/>
-    <laneAreaDetector id="E2J1" lane="E0_0" pos="233.70" length="10.00" period="300.00" file="e2_2.xml"/>
-    <laneAreaDetector id="E2J2" lane="E1_0" pos="240.30" length="10.00" period="300.00" file="e2_1.xml"/>
-    <laneAreaDetector id="E2J3" lane="E2_0" pos="245.15" length="10.00" period="300.00" file="e2_0.xml"/>
+    <laneAreaDetector id="E2J1" lane="E0_0" pos="-150" endPos="-1" file="NUL"/>
+    <laneAreaDetector id="E2J2" lane="E1_0" pos="-150" endPos="-1" file="NUL"/>
+    <laneAreaDetector id="E2J3" lane="E2_0" pos="-150" endPos="-1" file="NUL"/>
 </additional>

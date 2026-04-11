@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2026-04-07T14:52:25.694592+05:00 by Eclipse SUMO netedit 1.26.0
+<!-- generated on 2026-04-08T13:46:24.239496+05:00 by Eclipse SUMO netedit 1.26.0
 <neteditConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/neteditConfiguration.xsd">
 
     <input>
-        <sumocfg-file value="D:\StudyFiles\SumoProjects2\E1DetectorПередачаЭстафеты\net.sumocfg"/>
+        <sumocfg-file value="D:\StudyFiles\SumoProjects2\E1DetectorПередачаЭстафеты\net2.sumocfg"/>
         <additional-files value="D:\StudyFiles\SumoProjects2\E1DetectorПередачаЭстафеты\add.add.xml"/>
-        <route-files value="D:\StudyFiles\SumoProjects2\E1DetectorsTest\qq.rou.xml"/>
+        <route-files value="D:\StudyFiles\SumoProjects2\E1DetectorПередачаЭстафеты\net2.rou.xml"/>
         <sumo-net-file value="D:\StudyFiles\SumoProjects2\E1DetectorПередачаЭстафеты\net3inter1way.net.xml"/>
     </input>
 
@@ -88,9 +88,9 @@
         <phase duration="3"  state="ry"/>
     </tlLogic>
     <tlLogic id="J3" type="static" programID="0" offset="0">
-        <phase duration="82" state="G"/>
+        <phase duration="20" state="G"/>
         <phase duration="3"  state="y"/>
-        <phase duration="5"  state="r"/>
+        <phase duration="50" state="r"/>
     </tlLogic>
 
     <junction id="J0" type="dead_end" x="-204.74" y="-0.29" incLanes="" intLanes="" shape="-204.74,-0.29 -204.74,-3.49"/>
