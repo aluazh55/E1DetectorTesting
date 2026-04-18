@@ -1,3 +1,30 @@
-[Step: 73.1s] Vehicle: t_0 | Result: STOPPED (51.0s waited) | T_reach = 10.0s (accel) + (272.16m - (13.89m/s * 10.0s)/2) / 13.89m/s = 10.0s + (202.71m / 13.89m/s) = 24.59s
-[Step: 73.4s] Vehicle: t_1 | Result: STOPPED (44.1s waited) | T_reach = 10.0s (accel) + (272.16m - (13.89m/s * 10.0s)/2) / 13.89m/s = 10.0s + (202.71m / 13.89m/s) = 24.59s
-[Step: 73.8s] Vehicle: t_2 | Result: STOPPED (42.2s waited) | T_reach = 10.0s (accel) + (272.16m - (13.89m/s * 10.0s)/2) / 13.89m/s = 10.0s + (202.71m / 13.89m/s) = 24.59s
+
+[Dep. Time: 53.1s] Vehicle: t_0 (Full Path | J2 Green: 67.68s)
+  >> Ideal J3 Arrival: 87.11s
+  >> ACTUAL J3 GREEN:  87.11s 
+
+
+[Dep. Time: 53.4s] Vehicle: t_1 (Full Path | J2 Green: 67.98s)
+  >> Ideal J3 Arrival: 87.41s
+  >> ACTUAL J3 GREEN:  88.61s (Adjusted for Traffic)
+
+
+[Dep. Time: 53.8s] Vehicle: t_2 (Full Path | J2 Green: 68.38s)
+  >> Ideal J3 Arrival: 87.81s
+  >> ACTUAL J3 GREEN:  90.11s (Adjusted for Traffic)
+
+
+[Dep. Time: 62.1s] Vehicle: t_3 (Starts at E1/J2)
+  >> Ideal J3 Arrival: 84.03s
+  >> ACTUAL J3 GREEN:  84.03s 
+
+
+[Dep. Time: 62.4s] Vehicle: t_4 (Starts at E1/J2)
+  >> Ideal J3 Arrival: 84.33s
+  >> ACTUAL J3 GREEN:  85.53s (Adjusted for Traffic)
+
+
+[Dep. Time: 62.8s] Vehicle: t_5 (Starts at E1/J2)
+  >> Ideal J3 Arrival: 84.73s
+  >> ACTUAL J3 GREEN:  87.03s (Adjusted for Traffic)
+
