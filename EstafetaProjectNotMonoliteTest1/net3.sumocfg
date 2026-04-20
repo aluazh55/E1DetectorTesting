@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2026-04-20T22:08:17.715396+05:00 by Eclipse SUMO GUI 1.26.0
+<!-- generated on 2026-04-17T15:13:35.663393+05:00 by Eclipse SUMO sumo 1.26.0
+-->
+
 <sumoConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
 
     <input>
@@ -8,17 +10,5 @@
         <route-files value="net3.rou.xml"/>
         <additional-files value="add.add.xml"/>
     </input>
-
-    <time>
-        <step-length value="0.1"/>
-    </time>
-
-    <traci_server>
-        <remote-port value="2584"/>
-    </traci_server>
-
-    <gui_only>
-        <delay value="50"/>
-    </gui_only>
 
 </sumoConfiguration>
