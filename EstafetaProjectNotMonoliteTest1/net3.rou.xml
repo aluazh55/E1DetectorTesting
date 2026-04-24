@@ -11,6 +11,15 @@
     <trip id="t_3" depart="0.00" from="E1" to="E3"/>
     <trip id="t_4" depart="0.00" from="E1" to="E3"/>
     <trip id="t_5" depart="0.00" from="E1" to="E3"/>
+
+    <trip id="t_6" depart="0.00" from="E1" to="E3"/>
+    <trip id="t_7" depart="0.00" from="E1" to="E3"/>
+    <trip id="t_8" depart="0.00" from="E1" to="E3"/>
+
+    <trip id="t_33" depart="0.00" from="E1" to="E3"/>
+    <trip id="t_44" depart="0.00" from="E1" to="E3"/>
+    <trip id="t_55" depart="0.00" from="E1" to="E3"/>
+
     <trip id="t_10" depart="80.00" from="E0" to="E3" via="E1"/>
     <trip id="t_11" depart="80.00" from="E0" to="E3"/>
     <trip id="t_12" depart="80.00" from="E0" to="E3" via="E2"/>
